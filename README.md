@@ -116,10 +116,3 @@ public class MyPluginCommand extends BaseCommand {
 CommandManager.register(this, "myplugin", new MyPluginCommand());
 ```
 
----
-
-## Releasing a new version
-
-1. Push your changes to GitHub.
-2. Create a Git tag: `git tag 1.0.1 && git push origin 1.0.1`
-3. JitPack builds automatically on the first import of the new tag.
